@@ -1,0 +1,14 @@
+import './booking-source';
+import './cash-transactions';
+import './services';
+import './booking';
+import './stock';
+import './cashiering';
+import './homepage';
+import './dashboard';
+import './shift-handover';
+import './staff';
+import './information';
+import './policies';
+import './report';
+import './statistics-report';
