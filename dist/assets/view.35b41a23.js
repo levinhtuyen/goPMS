@@ -1,0 +1,1 @@
+import{_ as o,K as s,F as t,L as n,M as c,aO as _}from"./index.4bd8ab7e.js";const a={},r=_("Booking page");function i(l,p){const e=s("pms-sections");return t(),n(e,null,{default:c(()=>[r]),_:1})}var m=o(a,[["render",i],["__file","D:/project_learn/goPMS/src/modules/booking/booking-list/view.vue"]]);export{m as default};

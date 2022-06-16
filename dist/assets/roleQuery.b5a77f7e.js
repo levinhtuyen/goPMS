@@ -1,0 +1,1 @@
+import{aE as e}from"./index.4bd8ab7e.js";import{b as o}from"./axiosClient.ad61c203.js";import{Q as r}from"./queryKeys.832af9fa.js";const s=async t=>{const{data:a}=await o.get("/appendix/getRoleList",{params:{keyword:t}});return a.data},p=t=>e([r.ROLE,t],()=>s(t));export{p as u};

@@ -1,0 +1,1 @@
+const n=r=>!r||isNaN(Number(r))?"0":new Intl.NumberFormat("ja-JP",{style:"decimal",currency:"VND"}).format(Number(r)),m=(r,e,u)=>{const t=r.target.value;isNaN(Number(t))||(t===""&&u("0"),u(t))},N=(r,e)=>Number(r)>1?Number(e)+1<10?Number(r)-1+""+(Number(e)+1):Number(r)+"0":e+1;export{N as a,m as c,n as f};

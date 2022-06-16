@@ -1,0 +1,1 @@
+import{b as r}from"./axiosClient.ad61c203.js";import{Q as e}from"./queryKeys.832af9fa.js";import{bI as a}from"./index.4bd8ab7e.js";const o=async()=>{const{data:t}=await r.get("/inventory/extraProperty/getCategoryList?limit=-1");return t.data},m=()=>a(e.CATEGORY_SERVICES,o,{});export{m as u};
