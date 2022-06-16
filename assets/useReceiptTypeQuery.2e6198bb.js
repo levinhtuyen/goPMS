@@ -1,0 +1,1 @@
+import{b as e}from"./axiosClient.a0ee23b9.js";import{Q as a}from"./queryKeys.832af9fa.js";import{av as r}from"./index.7efcbe86.js";const o=async()=>{const{data:t}=await e.get("/configuration/cashiering/getCategoryReceiptTypeList");return t.data},c=()=>r(a.RECEIPT_TYPES,o);export{c as u};

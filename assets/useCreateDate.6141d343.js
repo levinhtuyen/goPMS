@@ -1,0 +1,1 @@
+import{d as c}from"./date.2d51ed98.js";const p=c.formatDate,i=t=>{const[e,n]=t.split(" "),[a,o,s]=e.split("/"),[r,m]=n.split(":");return new Date(+s,Number(o)-1,+a,+r,+m)},D=(t,e)=>p(new Date(t*1e3),e);export{i as c,D as n};
