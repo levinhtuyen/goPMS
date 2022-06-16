@@ -1,9 +1,0 @@
-node_modules
-.DS_Store
-dist-ssr
-*.local
-cypress/screenshots
-cypress/videos
-cypress/results
-.npmrc
-yarn.lock
